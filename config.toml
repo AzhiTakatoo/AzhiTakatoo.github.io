@@ -1,0 +1,37 @@
+baseURL = "http://hutuazhi.github.io"
+languageCode = "en-us"
+title = "Azhi's Blog"
+theme = "yinyang"
+DefaultContentLanguage = "en"
+
+[author]
+  name = "HuTuAzhi"
+  homepage = "https://hutuazhi.github.io/vita.html"
+
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 1
+  [languages.cn]
+    contentDir = "content/cn"
+    languageName = "Chinese"
+    weight = 2
+
+[params]
+disqus = "joway" # disqus account name
+extraHead = ''
+mainSections = ["posts"]
+headTitle = "Azhi Zeng"
+
+[[params.socials]]
+name = "RSS"
+link = "/index.xml"
+
+[[params.socials]]
+name = "About Me"
+link = "https://hutuazhi.github.io/vita.html"
+
+[[params.socials]]
+name = "Github"
+link = "https://github.com/hutuazhi"
