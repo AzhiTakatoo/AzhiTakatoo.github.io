@@ -3,8 +3,8 @@ author = "HuTuAzhi"
 title = "简化版加密货币的实现"
 date = "2020-04-02"
 description = "一种模拟比特币的简化加密货币，麻雀虽小，五脏俱全。"
-tags = ["markdown", "区块链", "加密货币", "GOLANG"]
-categories = ["区块链", "个人"]
+tags = ["markdown", "blockchain", "加密货币", "GOLANG"]
+categories = ["blockchain", "personal"]
 images  = ["img/2020/04/加密货币.jpg"]
 aliases = ["migrate-from-jekyl"]
 +++
@@ -15,7 +15,7 @@ date: 2020-04-02
 categories: ['区块链']
 draft: false
 --- -->
-
+***
 在本系列文章中，我们将实现一个简化版的区块链，并基于它来构建一个简化版的加密货币。  
 全系列文章分别实现三个区块链的demo，由简到难，最终逐步完善这个加密货币模型。  
 ***

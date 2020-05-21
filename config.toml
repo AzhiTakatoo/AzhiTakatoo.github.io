@@ -30,8 +30,8 @@ disableLanguages        = [""]
   readingTime           = true
   # Sets which Social Share links appear in posts.
   # Options are twitter, facebook, reddit, linkedin, pinterest, email
-  socialShare           = ["twitter", "facebook", "reddit", "linkedin",
-                          "pinterest", "email"]
+  socialShare           = ["twitter", "facebook", "microblog", "qq",
+                          "wechat", "email"]
 
   [params.meta]
     # Sets the meta tag description
@@ -72,16 +72,18 @@ disableLanguages        = [""]
 
     # This appears at the top of the sidebar above params.intro.header.
     # A width of less than 100px is recommended from a design perspective.
+    # 边栏顶部头像，建议宽度小于100px
     [params.intro.pic]
       src                 = "/img/main/logo.jpg"
       # Masks image in a certain shape. Supported are circle, triangle, diamond, and hexagon.
       shape               = "circle"
       width               = ""
-      alt                 = "Hugo Future Imperfect Slim"
+      alt                 = "阿治的秘密花园"
 
   [params.sidebar]
     about               = "test"
     # Sets the number of recent posts to show in the sidebar. The default value is 5.
+    # 设置要在侧栏中显示的最近帖子的数量。默认值是5
     postAmount          = 5
     # set to show or to hide categories in the sidebar
     categories          = true
@@ -97,6 +99,9 @@ disableLanguages        = [""]
   # Disqus will take priority over Staticman (github.com/eduardoboucas/staticman)
   # due to its ease of use. Feel free to check out both and decide which you would
   # prefer to use. See staticman.yml for additional settings.
+  # Disqus将优先于Staticman (github.com/eduardoboucas/staticman)
+  # 因为它易于使用。你可以随便看看，然后决定你想看哪一个
+  # 更喜欢使用。看到staticman.yml用于其他设置。
   [params.staticman]
     # If using GitHub, go to https://github.com/apps/staticman-net
     # If using GitLab, just add the GitLab bot, NO need to hit `/connect/v3/...`
@@ -125,7 +130,7 @@ disableLanguages        = [""]
   [[menu.main]]
     name              = "About"
     identifier        = "about"
-    url               = "/about/"
+    url               = ""
     pre               = "<i class='far fa-id-card'></i>"
     weight            = 2
 
@@ -323,41 +328,41 @@ disableLanguages        = [""]
   codepen               = ""
   # Visual Art Communities
   deviantart            = ""
-  flickr                = "example"
+  flickr                = ""
   behance               = ""
   dribbble              = ""
   # Publishing Communities
   wordpress             = ""
   medium                = ""
   # Professional/Business Oriented Communities
-  linkedin              = "example"
-  linkedin_company      = "examplebusiness"
+  linkedin              = ""
+  linkedin_company      = ""
   foursquare            = ""
   xing                  = ""
   slideshare            = ""
   # Social Networks
   facebook              = "example"
   googleplus            = ""
-  reddit                = "example"
+  reddit                = ""
   quora                 = ""
   youtube               = ""
   vimeo                 = ""
   whatsapp              = "" # WhatsApp Number
     # WeChat and QQ need testing.
-    wechat              = ""
-    qq                  = "" # User ID Number
+    wechat              = "example"
+    qq                  = "2023224031" # User ID Number
   instagram             = "example"
   tumblr                = ""
   twitter               = "example"
   skype                 = ""
   snapchat              = ""
-  pinterest             = "example"
-  telegram              = "example"
+  pinterest             = ""
+  telegram              = ""
   vine                  = ""
   googlescholar         = ""
   orcid                 = ""
-  researchgate          = "example"
-  keybase               = "example"
-  mastodon              = "example.com/@example"
+  researchgate          = ""
+  keybase               = ""
+  mastodon              = ""
   # Email
   email                 = "example"
