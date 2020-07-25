@@ -1,3 +1,3 @@
-
 本文实现第一个demo，我们先看看最终实现它能呈现出一个怎样的结果。
-![](https://raw.githubusercontent.com/HuTuAzhi/hutuazhi.github.io/master/static/img/2020/04/EncCur_part1.png "part1")
+![part1](https://tva1.sinaimg.cn/large/007S8ZIlgy1gh37l2pp99j31a80hi788.jpg "part1")
+
