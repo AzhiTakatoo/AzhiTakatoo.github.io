@@ -60,7 +60,7 @@ disableLanguages        = [""]
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
   [params.intro]
-    header                = "糊涂阿治的秘密花园"
+    header                = "治的秘密花园"
     paragraph             = "易感者无定，易定者无感。"
     rssIntro              = true
     socialIntro           = true
@@ -78,7 +78,7 @@ disableLanguages        = [""]
       # Masks image in a certain shape. Supported are circle, triangle, diamond, and hexagon.
       shape               = "circle"
       width               = ""
-      alt                 = "阿治的秘密花园"
+      alt                 = "治的秘密花园"
 
   [params.sidebar]
     about               = "test"

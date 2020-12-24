@@ -1,5 +1,5 @@
 +++
-author = "HuTuAzhi"
+author = "AzhiTakatoo"
 title = "简化版加密货币的实现"
 date = "2020-04-02"
 description = "一种模拟比特币的简化加密货币，麻雀虽小，五脏俱全。"
@@ -26,7 +26,7 @@ draft: false
 第三个demo则将原先储存在数组中的区块数据改为利用LMDB数据库储存，利用本地文件进行修改数据。并赋予了更真实的交易记录。
 ***
 # demo入口
->[一、Encryption currency_part1](https://hutuazhi.github.io/article/blockchain/EncCur_part1.html)  
+>[一、Encryption currency_part1](https://AzhiTakatoo.github.io/article/blockchain/EncCur_part1.html)  
 >[二、Encryption currency_part2](https://www.jianshu.com/p/b3dc9ca82dc2#fnref2)  
 >[三、Encryption currency_part3](https://www.jianshu.com/p/b3dc9ca82dc2#fnref3)  
 
