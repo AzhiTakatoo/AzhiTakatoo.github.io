@@ -1,4 +1,4 @@
-baseurl                 = "http://hutuazhi.github.io"
+baseurl                 = "http://AzhiTakatoo.github.io"
 DefaultContentLanguage  = "en"
 title                   = "zhiping Zeng"
 theme                   = "hugo-future-imperfect-slim"
